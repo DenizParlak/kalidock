@@ -26,4 +26,4 @@ docker run -t -i -p 6680:6680 jgamblin/kalibrowser
 
 x="$(hostname --all-ip-addresses)" | awk '{print $1}'
 
-echo "Login $x:6680"
+echo Login $x:6680
